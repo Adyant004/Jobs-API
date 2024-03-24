@@ -4,6 +4,12 @@
 npm install && npm start
 ```
 
+###How to Use
+Use Postman
+https://jobs-api-yui4.onrender.com/api/v1/auth/register => To register for the jobs, enter your name, email, password
+https://jobs-api-yui4.onrender.com/api/v1/auth/login => To log in for the service, enter your name and password
+https://jobs-api-yui4.onrender.com/api/v1/jobs => To create, update, delete, see all jobs.
+
 #### Database Connection
 
 1. Import connect.js
@@ -54,16 +60,3 @@ Email Validation Regex
 - cors
 - xss-clean
 - express-rate-limit
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
