@@ -5,7 +5,6 @@ npm install && npm start
 ```
 
 #### How to Use
-<br>
 #### Use Postman
 <br>
 https://jobs-api-yui4.onrender.com/api/v1/auth/register => To register for the jobs, enter your name, email, password 
